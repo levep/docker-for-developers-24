@@ -1,6 +1,5 @@
 name: ci
-on:
-  workflow_dispatch:        # manual trigger — run it from the Actions tab
+on: [push]
 
 jobs:
   build:
