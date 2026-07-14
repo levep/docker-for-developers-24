@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # build context and Dockerfile live in ./app
+      # build context and Dockerfile live in ./app morfe comment
       - name: Build
         run: docker build -t myapp:${{ github.sha }} ./app
 
